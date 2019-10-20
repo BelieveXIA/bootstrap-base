@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>按钮-嵌套分组-水平导航栏</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"/>		
+	<style type="text/css">
+		body{
+			padding: 100px 0 0 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="btn-group">
+		<button type="button" class="btn btn-default">首页</button>
+		<div class="btn-group">
+			<button type="button" class="btn btn-default dropdown-toggle " data-toggle="dropdown">产品分析<span class="caret"></span></button>
+			<ul class="dropdown-menu">
+				<li role="presentation"><a href="#">收割机</a></li>
+				<li role="presentation"><a href="#">电动机</a></li>
+				<li role="presentation"><a href="#">拖拉机</a></li>
+				<li role="presentation"><a href="#">电动车</a></li>
+			</ul>
+		</div>
+		<button type="button" class="btn btn-default">案例分析</button>
+		<button type="button" class="btn btn-default">联系我们</button>
+		<button type="button" class="btn btn-default">关于我们</button>
+	</div>
+	
+	<script type="text/javascript" src="../jquery-3.1.1/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>自适应导航-实现原理</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap-3.3.7-dist/css/bootstrap.min.css"/>		
+	<style type="text/css">
+		
+	</style>
+</head>
+<body>
+	<!-- 列表（<ul>）上设置宽度为“100%”，然后每个菜单项(<li>)设置了“display:table-cell”，让列表项以模拟表格单元格的形式显示 -->
+		<!-- @media (min-width:768px){…}”表示自适应导航仅在浏览器视窗宽度大于768px才能按一行占父类100%宽度风格显示。当你的浏览器视窗宽度小于768px的时候，将会按一个li占一行的风格展示 -->
+<ul class="nav nav-tabs nav-justified">
+		<li class="active"><a href="##">Home</a></li>
+		<li><a href="##">CSS3</a></li>
+		<li><a href="##">Sass</a></li>
+		<li><a href="##">jQuery</a></li>
+		<li><a href="##">Responsive</a></li>
+	</ul>
+	<br />
+	<ul class="nav nav-pills nav-justified">
+		<li><a href="##">HTML</a></li>
+		<li class="active"><a href="##">CSS</a></li>
+		<li><a href="##">JS</a></li>
+		<li><a href="##">JQ</a></li>
+		<li class="disabled"><a href="##">VUE</a></li>
+	</ul>
+	
+	<script type="text/javascript" src="../jquery-3.1.1/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="../bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+</body>
+</html>
